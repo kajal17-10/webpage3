@@ -3,16 +3,21 @@
     padding: 0px;
     box-sizing: border-box;
 }
+/* header section starts */
 header{
     width: 100vw;
     height: 50px;
     color: #fff;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 0px 100px;
-    background: #022d7c;
+    align-items: center;
+    background: #022D7C;
+    justify-content: space-between;
 }
+/* header section ends */
+
+/* banner section starts */
+
 .banner{
     width: 100%;
     height: 600px;
@@ -21,8 +26,8 @@ header{
     padding: 0px 100px;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(rbga(0,0,0,0.5),rbga(0,0,0,0.5)), 
-                url(../img/industrial.png);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)), 
+                url(../img/industrial.jpg);
     background-size: cover;
 }
 .banner h1{
@@ -31,21 +36,76 @@ header{
 }
 .banner h1 span{
     display: block;
-    font-size: 77px;
-    font-weight: 600px;
+    font-size: 77px; 
+    font-weight: 600;
 }
 .banner aside{
     padding: 20px;
-    text-align: center;
-    background: #022d7c;
     border-radius: 7px;
-    
+    text-align: center;
+    background: #022D7C;
 }
 .banner aside input[type],
 .banner aside textarea,
-.banner aside button
-{
-    width: 100px;
+.banner aside button{
+    width: 100%;
+    margin: 7px;
     height: 50px;
-    margin: 50px;
 }
+/* banner section ends */
+
+/* feature section starts */
+.feature{
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: #022D7C;
+    padding: 60px 100px;
+    justify-content: space-between;
+}
+.feature div{
+    width: 30%;
+    height: 400px;
+}
+.feature div h2{
+    font-size: 40px;
+    margin-bottom: 7px;
+}
+.feature div img{
+    width: 400px;
+    height: 250px;
+}
+.feature div p{
+    margin-top: 5px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* feature section ends */
+/* about us section starts */
+.about{
+    width: 100px;
+    height: auto;
+    color: #fff;
+    text-align: center;
+    padding: 60px 300px;
+    background: #022D7C;
+}
+.about h2{
+    font-size: 33px;
+    margin-bottom: 7px;
+}
+.about p{
+    font-size: 18px;
+    font-weight: normal;
+}
+.about button{
+    color: #022D7C;
+    padding: 15px 120px;
+    font-weight: bold;
+    margin: 7px;
+    background: #022D7C;
+    border: 2px solid #fff;
+    border-radius: 3px;
+}
+/* about us section s */
