@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 /* header section starts */
 header{
     width: 100vw;
@@ -17,7 +18,6 @@ header{
 /* header section ends */
 
 /* banner section starts */
-
 .banner{
     width: 100%;
     height: 600px;
@@ -53,8 +53,7 @@ header{
     height: 50px;
 }
 /* banner section ends */
-
-/* feature section starts */
+/* feature section start */
 .feature{
     width: 100%;
     height: auto;
@@ -80,11 +79,11 @@ header{
     font-size: 18px;
     text-align: justify;
 }
+/* feature section end */
 
-/* feature section ends */
-/* about us section starts */
+/* About us section Start */
 .about{
-    width: 100px;
+    width: 100%;
     height: auto;
     color: #fff;
     text-align: center;
@@ -100,12 +99,12 @@ header{
     font-weight: normal;
 }
 .about button{
-    color: #022D7C;
-    padding: 15px 120px;
+    color: #fff;
+    margin-top: 10px;
     font-weight: bold;
-    margin: 7px;
+    padding: 15px 120px;
     background: #022D7C;
     border: 2px solid #fff;
-    border-radius: 3px;
+    border-radius: 4px;
 }
-/* about us section s */
+/* about us section ends */
